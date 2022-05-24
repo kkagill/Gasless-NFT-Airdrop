@@ -13,7 +13,7 @@ In order to create a whitelist, your backend or script must first create a signa
 You can test it with `npm run sig`, but use your own provider and two private keys in the script `generate_whitelist_sig.js`.
 
 Then your backend should also create a merkle root using a list of EOAs to be added to whitelist.
-You can test it with `npm run root`, but use your known EOAs in the script `whitelistAddresses.js`.
+You can test it with `npm run root`, but replace EOAs in `whitelistAddresses.js` with your EOAs.
 
 When above two arguments are ready, you can pass those values to `Airdrop` contract's `createWhitelist()`
 
