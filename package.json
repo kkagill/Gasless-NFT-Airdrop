@@ -1,0 +1,16 @@
+{
+  "name": "meta_tx_airdrop_using_merkle_tree",
+  "version": "1.0.0",
+  "author": "Sejong Shon",
+  "scripts": {
+    "proof": "node generate_merkle_proof",
+    "root": "node generate_merkle_root",
+    "sig": "node generate_whitelist_sig"
+  },
+  "dependencies": {
+    "ethers": "^5.5.3",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.27",
+    "openzeppelin-solidity": "^4.1.0"
+  }
+}
