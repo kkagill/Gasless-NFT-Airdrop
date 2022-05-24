@@ -2,6 +2,7 @@
 using EIP712 signature, meta transaction, and merkle tree
 
 This is a useful technique when it comes to integrating NFT airdrop functionality into your web3 project.
+
 `Airdrop.sol` can be used gaslessly with `EIP712MetaTransaction.sol` if project is using a relayer such as biconomy.
 
 `Airdrop` contract does two things:
