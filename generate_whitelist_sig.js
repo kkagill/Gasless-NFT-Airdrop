@@ -20,9 +20,9 @@ async function main() {
       ];
 
     const data = {
-        contractAddress: '0x9200642CEf03011058D5143f26334d1e4d5F6576',
+        contractAddress: '0x9200642CEf03011058D5143f26334d1e4d5F6576', // use deployed airdrop contract address
         creator: whitelistCreator.address,
-        uniqueId: "627491157d9be2c2a234ecd2",
+        uniqueId: "627491157d9be2c2a234ecd2", // can be any value
     };
     const signature = await owner._signTypedData(domainSeparator, { WhitelistInfo }, data);
     
